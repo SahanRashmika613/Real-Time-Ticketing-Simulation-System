@@ -1,0 +1,23 @@
+.current-status {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .status-info {
+    margin: 15px 0;
+    font-size: 16px;
+  }
+  
+  .status-info span {
+    font-weight: bold;
+    color: #4caf50; /* Default color for RUNNING */
+  }
+  
+  .stopped {
+    color: #ff5252; /* Red color for STOPPED */
+  }
+  
